@@ -1,13 +1,9 @@
 {
-  "name": "@shelf/serverless-simplify-default-exec-role-plugin",
-  "version": "0.0.1",
-  "description": "serverless-simplify-default-exec-role-plugin",
+  "name": "@ojboj/serverless-simplify-log-group-policy-plugin",
+  "version": "0.1.0",
+  "description": "serverless-simplify-log-group-policy-plugin",
   "license": "MIT",
-  "author": {
-    "name": "Vlad Holubiev",
-    "email": "vlad@shelf.io",
-    "url": "https://shelf.io"
-  },
+  "author": "Michael Rawcliffe <ojboj@proton.me>",
   "main": "index.js",
   "files": [
     "index.js"
