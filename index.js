@@ -41,7 +41,7 @@ function simplifyBaseIAMLogGroups(serverless) {
       ];
       // Filter out any statemets that are just log group related
       const logGroupLessStatement = statement.filter(
-        (s) => !s.Action.every((a) => reducableLogGroupActions.includes(a))
+        (s) => !s.Action.every((a) => simplifiableLogGroupActions.includes(a))
       );
       // Build new statement, adding the simplified log group statements
       const newStatement = [...logGroupLessStatement, ...policyStatements];
