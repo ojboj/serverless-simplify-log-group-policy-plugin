@@ -1,6 +1,6 @@
 {
   "name": "@ojboj/serverless-simplify-log-group-policy-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "serverless-simplify-log-group-policy-plugin",
   "license": "MIT",
   "author": "Michael Rawcliffe <ojboj@proton.me>",
